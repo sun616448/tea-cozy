@@ -12,6 +12,10 @@ h2{
     font-size: 1.5em;
 }
 
+h3 {
+    font-size: 1.35em;
+}
+
 h4 {
     font-size: 1.2em;
 }
@@ -82,6 +86,130 @@ main {
     justify-content: center;
     margin: 2% 10%; 
     align-items: center;
-    position: relative
+    position: relative;
 }
-    
+/*
+#locations {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    padding-top: 5%;
+    min-height: 500px; 
+    margin-top: 5%
+}
+
+.locations-title {
+    background-color: transparent; 
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    flex-direction: row; 
+}
+
+.locations-title h2 {
+    background-color: transparent;
+}
+
+/*.address {
+    display: flex;
+    flex-direction: row; 
+    width: 300px; 
+    justify-content: center;
+    flex-wrap: wrap;
+    opacity: 0.9; 
+    align-items: center; 
+    height: 300px; 
+    margin-top: 15px; 
+    margin-right: 40px; 
+}
+
+.address #east {
+    width: 300px;
+    margin: 15px 40px;
+    opacity: 0.9; 
+    flex: 1;
+}
+
+
+
+.downtown {
+    width: 300px; 
+    margin: 15px 40px;
+    opacity: 0.9; 
+    flex-direction: row; 
+}
+
+.east {
+    width: 300px; 
+    margin: 15px 40px;
+    opacity: 0.9; 
+    flex-direction: row; 
+
+}
+*/
+
+#locations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content:center;
+    flex: 1 1 1200px;
+    text-align: center;
+     min-height: 800px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.locations-title {
+    background-color: transparent; 
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    flex-direction: row; 
+}
+
+.locations-title h2 {
+    background-color: transparent;
+}
+
+.address {
+    min-width: 300px;
+    display: flex; 
+    flex-direction: column;
+    flex-basis: 300px; 
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+    height: 300px; 
+    margin-top: 15px; 
+    background-color: black;
+    justify-content: space-between;
+    padding: 2%; 
+
+    vertical-align: middle; 
+    opacity: 1;
+}
+
+#ending {
+    text-align: center;
+    height: 200px; 
+    flex-direction: column;
+    margin: 0 auto;
+    display: flex; 
+    flex-direction: column;
+    line-height: 50px; 
+    margin-bottom: 20px; 
+}
+
+footer {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+}
